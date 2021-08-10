@@ -68,7 +68,7 @@ var b = document.getElementById('input2');
 
 var input3 = document.querySelector(".custom")
 
-a.addEventListener('mouseup', () => {
+a.addEventListener('click', () => {
 
     var input1 = document.getElementById('input1').value;
         
@@ -84,7 +84,7 @@ a.addEventListener('mouseup', () => {
     document.getElementById("totalperson").innerHTML = '$' + Total.toFixed(2);
 });
 
-b.addEventListener('mouseup', () => {
+b.addEventListener('click', () => {
 
     var input1 = document.getElementById('input1').value;
         
@@ -100,7 +100,7 @@ b.addEventListener('mouseup', () => {
     document.getElementById("totalperson").innerHTML = '$' + Total.toFixed(2);
 });
 
-input3.addEventListener('mouseup', () => {
+input3.addEventListener('click', () => {
 
     var input1 = document.getElementById('input1').value;
         
@@ -118,7 +118,6 @@ input3.addEventListener('mouseup', () => {
 
 var resetnumber = document.querySelector('.reset');
 
-var tip = 0;
 resetnumber.addEventListener('click', () => {
 document.getElementById('tipamount').innerHTML = "$0.00";
 document.getElementById('totalperson').innerHTML = "$0.00";
