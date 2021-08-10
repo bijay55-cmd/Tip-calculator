@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>SPLI
+            <span>TTER</span>
+        </h1>
+    </div>
+
+    <div class="flex">
+
+
+    <div class="tipheader">
+        <div>
+            <p>Bill</p>
+            <div class="inputbox">
+                <label>&#36;</label>
+                <input type="number" class="inputtext" value="0" id="input1" placeholder="Enter the Amount">
+            </div>
+        </div>
+
+        <div class="tipselect">
+            <p>Select Tip%</p>
+    <div id="tip">
+    <button value="5" class="threebtn">5%</button>
+    <button value="10">10%</button>
+    <button value="15" class="threebtn">15%</button>
+    <button value="25">25%</button>
+    <button value="50" class="threebtn">50%</button>
+        <input class="custom" type="number" min="0" max="999999" placeholder="Custom">
+    </div>
+    </div>
+
+    <p>Number of People</p>
+
+    <div class="inputbox">
+<i class="fas fa-user"></i>
+        <input type="number" class="inputtext" value="0" id="input2">
+    </div>
+
+    </div>
+
+    <div>
+
+    <div class="totalcard">
+
+    <div>
+        <div class="tipcard">
+            <p> <small>Tip Amount </small> <br> <span>/ person</span></p>
+            <p id="tipamount" class="totalcost">$0.00</p>
+        </div>
+
+        <div class="tipcard">
+            <p><small>Total</small> <br> <span>/ person</span></p>
+            <p id="totalperson" class="totalcost">$0.00</p>
+        </div>
+    </div>
+
+    <div class="resetset">
+        <button class="reset">Reset</button>
+    </div>
+
+
+    </div>
+
+    </div>
+
+    </div>
+
+
+</body>
+</html>
