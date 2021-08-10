@@ -68,7 +68,7 @@ var b = document.getElementById('input2');
 
 var input3 = document.querySelector(".custom")
 
-a.addEventListener('click', () => {
+a.addEventListener('change', () => {
 
     var input1 = document.getElementById('input1').value;
         
@@ -84,7 +84,7 @@ a.addEventListener('click', () => {
     document.getElementById("totalperson").innerHTML = '$' + Total.toFixed(2);
 });
 
-b.addEventListener('click', () => {
+b.addEventListener('change', () => {
 
     var input1 = document.getElementById('input1').value;
         
@@ -100,7 +100,7 @@ b.addEventListener('click', () => {
     document.getElementById("totalperson").innerHTML = '$' + Total.toFixed(2);
 });
 
-input3.addEventListener('click', () => {
+input3.addEventListener('change', () => {
 
     var input1 = document.getElementById('input1').value;
         
